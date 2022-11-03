@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #C3CEE0;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#Home" style="color: #0D160B;">MCB</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav" style="color: #0D160B;">
+        <a class="nav-link active" aria-current="page" href="index.html" style="color: #0D160B;" >Home</a>
+        <a class="nav-link" href="#Cards" style="color: #0D160B;">CV</a>
+        <a class="nav-link" href="#Cards" style="color: #0D160B;">Contact</a>
+        <a class="nav-link" href="Projects.html" style="color: #0D160B;">Projects</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <!-- Header -->
+<div class="h1 text-center pt-4">Millas Casanas Besser</div>
+
+    <!-- Intro -->
+
+<section  id="About">
+
+
+
+    <div class="container-fluid my-5">
+    <div class="card mb-3 ms-" style="max-width: 60rem;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="Assets/portfoliopic.jpeg" class="img-fluid rounded-start" alt="placeholder">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h4 class="card-title"><em>Who am i?</em></h4>
+                    <p class="card-text lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sit delectus impedit ad animi quod aperiam. Voluptatibus excepturi commodi quaerat modi saepe harum, et reprehenderit debitis veritatis sit ullam a accusamus accusantium vitae voluptatum, id molestias est odit, officiis minima.</p>
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim qui impedit vero, nihil inventore autem totam, culpa quam fuga officiis, numquam similique quasi soluta id reiciendis? Aut laudantium totam soluta?</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</section>
+
+    <!--Card Section-->
+
+<section  id="Cards" class="mt-5 py-3 py-5" style="background-color: #D6DADD;">
+
+    <div class="row my-5 me-5 justify-content-center">
+        
+        <!-- CV Card -->
+        <div class="col-8 col-lg-5 mb-1" style="width: 30rem;">
+            <div class="card border-0 ms-5">
+                <div class="card-body text-center py-4">
+                    <h4 class="Card-title" style="color: black;">CV</h4>
+                    <p  style="color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo aspernatur sed molestias iste voluptate inventore? Consequatur voluptatem dolorem omnis eos voluptas quod animi est eum.</p>
+
+                    <p  style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex enim officiis, quo eius ea dicta! In ratione, unde sapiente facere obcaecati culpa dignissimos assumenda voluptatibus nemo perspiciatis expedita magni enim!</p>
+                    <button class="btn text-center mb-2 py-1 text-light" data-bs-toggle="modal" data-bs-target="#reg-modal" style="width: 75px; height: 35px; background-color: #648DE5;">CV</button>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact/Social Card -->
+        <div class="col-8 col-lg-5 mt-1" style="width: 30rem;">
+            <div class="card border-0 ms-5">
+                <div class="card-body text-center py-4 mb-5">
+                    <h4 class="Card-title" style="color: black;">Contact & Socials</h4>
+                    <p  class= "mb-4" style="color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo aspernatur sed molestias iste voluptate inventore? Consequatur voluptatem dolorem omnis eos voluptas quod animi est eum.</p>
+
+                    <p  style="color: black;"><i class="bi bi-telephone me-1"></i>: 22 36 56 37</p>
+                    <p  style="color: black;"><i class="bi bi-envelope me-1"></i>: Millas.mig@gmail.com</p>
+
+                <div class="pb-1">
+                    <a href="https://www.facebook.com/millas.besser/" target="_blank>https://www.facebook.com/millas.besser/" class="btn"><i class="bi bi-facebook"></i></a>
+                    <a href="https://github.com/MillasCB" target="_blankhttps://github.com/MillasCB>" class="btn"><i class="bi bi-github"></i></a>
+                    <a href="https://www.instagram.com/millascasanasbesser/" target="_blank>https://www.instagram.com/millascasanasbesser/" class="btn"><i class="bi bi-instagram"></i></a>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CV Modal -->
+<div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="model-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                <h5 class="modal-title text-center" id="modal-title" >CV</h5>
+            </div>
+            <div class="modal-body">
+                <img src="Assets/CV1024_1.jpg" class="img-fluid rounded-start" alt="placeholder">
+                <div class="modal-footer justify-content-center">
+                <a href="Assets/CV.pdf" download class="btn text-light text-center py-1" style="width: 95px; height: 35px; background-color: #648DE5;">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootst
+rap.bundle.min.js"></script>
+</body>
+</html>
